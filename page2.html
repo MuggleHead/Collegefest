@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/style.css">
+    <title></title>
+    <!---BootStrap--->
+    <!--CSS STYLESHEET-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="icon" href="https://sketch.metademolab.com/share/290b67e86d034603a5ea32a0a0959631/standard_walk">
+  <link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap" rel="stylesheet">
+   <style>
+     body{
+       background-color:#ECF4F0;
+       margin-right:0px;
+       font-family: 'Merriweather', serif;
+     }
+     .navr{
+       margin-top: 0px;
+       margin-left: 0px;
+       height:70px;
+       width:1106.6px;
+       background-color:yellow;
+
+     }
+     .no_hov:hover {
+       background-color: #84b560;
+
+     }
+     .dropdown-content {
+       display: none;
+       position: absolute;
+       background-color: #f9f9f9;
+       min-width: 160px;
+       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+       z-index: 2;
+     }
+     .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.drop:hover .dropdown-content {
+  display: block;
+}
+.drop{
+  position: relative;
+  padding-left: 260px;
+}
+     .page2-image{
+       width:1106.7px;
+       height:650px;
+     }
+     @keyframes mymove {
+       from {left: -900px;}
+       to {left: -10px;}
+     }
+     .ani{
+       animation-timing-function: ease-in;
+       position: relative;
+       animation: mymove 7s ;
+     }
+     .ami{
+       animation-timing-function: ease-in;
+       position: relative;
+       animation: move 5s ;
+     }
+     @keyframes move {
+       from {left: -900px;}
+       to {left: -10px;}
+     }
+
+     </style>
+  </head>
+  <body>
+    <!---Nav Bar-->
+    <div class="navr">
+    <ul  class="nav justify-content-center bar" style="padding-top:13px; font-size:25px;">
+      <li class="nav-item">
+        <a class="nav-link  no_hov " style="color:black;" href="#" >Home </a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link  no_hov" style="color:black;" href="#about">Info</a>
+        </li>
+
+          <li class="nav-item">
+              <a class="nav-link  no_hov"style="color:black;"  href="#contact">Contact</a>
+            </li>
+            <li class="nav-item ">
+              <div class="drop">
+          <button style=" cursor: pointer; background-color:#041A1A; color:white; width:160px;"  class="dropbtn no_hov">Events</button>
+              <div class="dropdown-content">
+                <a href="age.html#cough">Laser Tag</a>
+                <a href="age.html#tonsils">Fashion Show</a>
+                <a href="age.html#asthma">Dance</a>
+                <a href="age.html#typhoid"></a>
+                <a href="age.html#diarrhoea"></a>
+                </div>
+    </div>
+            </li>
+
+            </ul>
+    </div>
+    <!--image-->
+      <img src="images/page2.png" class="page2-image" alt="">
+      <h1  style="z-index:1; text-shadow: 0 0 5px yellow; position:relative; font-size:160px; top:-580px; margin-left:300px; color:black; font-family: 'Just Another Hand', cursive;">Exciting Events</h1>
+      <img src="images/laser.png"  style="top:-550px; z-index:1; position:relative;"alt="">
+      <h1  style="z-index:1; position:relative; font-size:110px; top:-700px; margin-left:300px; color:black;font-family: 'Jura', sans-serif;">Laser Tag Competitons</h1>
+
+<div style="margin-top:-689px;">
+  <img src="images/fashion.png" class="page2-image"  alt="">
+    <h1  style="z-index:1; position:relative; font-size:110px; top:-400px; margin-left:400px; color:red;font-family: 'Jura', sans-serif;">Fashion show for our divas</h1>
+<h4 style="z-index:1; position:relative; font-size:30px; top:-380px; margin-left:400px; color:black;">There is a hidden model in everyone and this is your chance to show it to the world</h4></div>
+
+<div  style="margin-top:-350px;">
+  <img src="images/dance.png" class="page2-image"alt="">
+  <h1  style="z-index:1; position:relative; font-size:80px; top:-400px; margin-left:200px; color:#000AFF;font-family: 'Jura', sans-serif;">Take part in the most diverse dance off ever!!</h1>
+</div>
+<div  style="margin-top:-199px;">
+  <img src="images/last.png" class="page2-image"alt="">
+  <h1  style="z-index:1; position:relative; font-size:80px; top:-400px; margin-left:80px; color:white;font-family: 'Jura', sans-serif;">Whether your style is traditonal or western</h1>
+</div>
+</body>
+</html>
